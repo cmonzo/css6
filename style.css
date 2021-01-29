@@ -1,0 +1,58 @@
+header{
+background-color: black;
+color: white;
+font-size: 150%;
+text-align: right;
+
+}
+
+h1{
+vertical-align: 30%;
+
+}
+article.cabecera{
+   margin: 3em 0em 0em 0em;
+    text-align: center;
+    
+}
+span.cabecera{
+    padding: 15px;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(196, 191, 191);
+
+}
+section{
+    border-top: black 2px solid;
+    padding: 2px 300px 0px;
+    
+}
+span.titulo{
+    text-align: left;
+    font-weight: bold;
+ 
+    
+}
+body{
+    background-color: gray;
+    margin: 0 0 2em;
+}
+span.texto{
+    text-align: justify;
+}
+article.blanco{
+    
+    border-bottom: white 3px solid;
+}
+span.negrita{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+span.disco{
+    border-bottom: red 1px dashed;
+    font-style: italic;
+    font-size: 110%;
+}
+span.disco::before{
+    content: "&quot";
+}
