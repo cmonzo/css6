@@ -4,12 +4,11 @@ color: white;
 font-size: 150%;
 text-align: right;
 
-}
 
-h1{
-vertical-align: 30%;
 
 }
+
+
 article.cabecera{
    margin: 3em 0em 0em 0em;
     text-align: center;
@@ -24,18 +23,20 @@ span.cabecera{
 }
 section{
     border-top: black 2px solid;
-    padding: 2px 300px 0px;
+    
+    margin: 1em 20em 1em 20em;
     
 }
 span.titulo{
     text-align: left;
     font-weight: bold;
+    font-size: 150%;
  
     
 }
 body{
     background-color: gray;
-    margin: 0 0 2em;
+    
 }
 span.texto{
     text-align: justify;
@@ -53,6 +54,23 @@ span.disco{
     font-style: italic;
     font-size: 110%;
 }
+blockquote {
+    quotes: "«" "»";
+  }
 span.disco::before{
-    content: "&quot";
+    content: open-quote; 
+}
+span.disco::after{
+    content: close-quote; 
+}
+
+span.blanc{
+    color: red;
+    background-color: white;
+
+}
+
+span.azul{
+    color: blue;
+    font-weight: bold;
 }
