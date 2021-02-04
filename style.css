@@ -74,3 +74,8 @@ span.azul{
     color: blue;
     font-weight: bold;
 }
+footer{
+    background-color: white;
+    text-align: center;
+    border: black 1px solid;
+}
